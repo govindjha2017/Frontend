@@ -1,0 +1,38 @@
+*{
+    padding: 0%;
+    margin: 0%;
+}
+
+div{
+    border: 2px solid black;
+    margin: 20px;
+}
+.parent{
+    position: relative;
+}
+.div-3{
+    background-color: orange;
+    position: relative;
+    top: 0rem;
+    left: 2rem;
+}
+
+.navbar{
+    border: 2px solid black;
+    background-color: black;
+    padding: 0.8rem;
+    position: fixed;
+    width: 100%;
+    top: 0;
+}
+nav a:link{
+    font-size: 30px;
+    color: white;
+}
+
+.container{
+    margin-top: 80px;
+}
+.div-1{
+    background-color: aqua;
+}

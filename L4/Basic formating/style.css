@@ -1,0 +1,39 @@
+/*div{
+    border: 2px solid black;
+    border-left: 4px solid black;
+    border-top: 4px solid black;
+    border-radius: 2px;
+}*/
+
+.btn{
+    border: 2px solid black;
+    border-radius: 1rem;
+    width: 3.4rem;
+    padding: 0.3rem 0.6rem;
+    background-color: rgb(168, 218, 220);
+    color: white;
+}
+
+.btn:hover{
+    background-color: white;
+    color: black;
+    cursor: pointer;
+}
+div p{
+   /* text-align: center;
+    justify-content: center;*/
+    /*line-height: 2rem;*/
+    text-decoration: underline overline;
+    text-decoration-color: green;
+    text-decoration: none;
+    /*text-transform: uppercase;*/
+    /*text-transform: capitalize;*/
+}
+
+div p{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 20px;
+    font-weight: 100;
+    font-style: italic;
+    font-family: 'Instrument Serif', serif;
+}

@@ -1,0 +1,39 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.logo{
+    width: 200px;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    background-color: #FFC017;
+    
+}
+.logo img{
+    width: 100%;
+}
+
+.nav-links{
+    align-items: center;
+   /* border: 2px solid black;*/
+   
+    display: flex;
+}
+
+.nav-links a{
+    padding: 10px;
+}
+.nav-links a:link{
+    text-decoration: none;
+    color: black;
+}
+
+#last{
+    border: 8px;
+    border-radius: 30px;
+    background-color: blueviolet;
+}

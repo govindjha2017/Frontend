@@ -1,0 +1,75 @@
+nav{
+    background-color: black;
+    padding: 8px;
+}
+nav a{
+    margin-left: 10px;
+}
+
+nav a:link{
+    color:white;
+    text-decoration: none;
+}
+
+nav a:visited{
+    color: white;
+}
+
+nav a:hover{
+    text-decoration: underline;
+}
+
+nav a:active{
+    color: red;
+    background-color: yellow;
+}
+
+/*================child combinator============*/
+/*ul>li{
+    color: red;
+}*/
+
+/*===============immediate siblings============*/
+/*li+li{
+    color:red;
+}*/
+
+/*============= general siblings==============*/
+/*li#select~li{
+    color: red;
+}*/
+
+
+/*ol li:first-child{
+    background-color: plum;
+}*/
+
+/*ol li:last-child{
+    background-color: orange;
+}*/
+
+/*ol li:nth-child(2n+1){
+    background-color: blue;
+}*/
+
+/*ul li::before{
+    content: "\1F4DE";
+}
+
+ul li::after{
+    content: "\1F4DE";
+}
+*/
+
+.contanier p::first-letter{
+    font-size: 50px;
+}
+.contanier{
+    background-color: red;
+}
+#first-div{
+    background-color: brown;
+}
+div{
+    background-color: teal;
+}
