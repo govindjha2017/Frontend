@@ -35,5 +35,6 @@ nav{
 #last{
     border: 8px;
     border-radius: 30px;
-    background-color: blueviolet;
+    color: white;
+    background-color: black;
 }
