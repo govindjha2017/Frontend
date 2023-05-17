@@ -1,0 +1,96 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.container{
+    background-image: url(./img/Space.png);
+    height: 100vh;
+    background-color: blue;
+    position: relative;
+    animation: bgmove 4s ease-in-out forwards;
+}
+.rocket{
+     height: 200px;
+     position:absolute ;
+     width: 200px;
+     left: 400px;
+     bottom: 100px;
+ 
+     animation: rocketMove 2s ease-in-out infinite,
+                rocketrotate 2s ease-in-out 8s forwards,
+                rocketfly 2s ease-in-out 10s forwards ;
+
+}
+.rocket img{
+    width: 100%;
+    transform: rotate(45deg);
+
+}
+
+.cody{
+    height: 200px;
+    width: 200px;
+ 
+    position: absolute;
+    left: -200px;
+    bottom: 200px;
+    animation: codymove 2s ease-in-out infinite,
+               codyforward 2s ease-in-out 4s forwards,
+               codyinrocket 2s ease-in-out 6s forwards;
+}
+.cody img{
+    height: 100%;
+
+}
+
+@keyframes bgmove {
+    100%{
+        background-position: 6000% ,0;
+    }
+}
+
+@keyframes rocketMove{
+    0%{
+        bottom: 150px;
+    }
+    50%{
+        bottom: 250px;
+    }
+    100%{
+        bottom: 150px;
+    }
+}
+@keyframes rocketrotate{
+    100%{
+        transform: rotate(-90deg);
+    }
+}
+@keyframes codymove{
+    0%{
+        bottom: 150px;
+    }
+    50%{
+        bottom: 250px;
+    }
+    100%{
+        bottom: 150px;
+    }
+}
+@keyframes rocketfly{
+    100%{
+          bottom: 1000px;
+    }
+}
+
+@keyframes codyforward {
+    100%{
+        left: 250px;
+    }
+}
+
+@keyframes codyinrocket{
+    100%{
+        transform: scale(0);
+        left: 510px;
+    }
+}
