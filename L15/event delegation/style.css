@@ -1,0 +1,12 @@
+.container{
+    background-color: brown;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.child{
+    background-color: yellow;
+    height: 200px;
+    width: 200px;
+    margin: 10px;
+}
