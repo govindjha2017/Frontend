@@ -1,15 +1,15 @@
+.grandparent, .parent,.child{
+    border: 2px solid black;
+    padding: 40px;
+    text-align: center;
+}
 .grandparent{
- 
-    height: 500px;
     background-color: aqua;
 }
-
 .parent{
-    height: 250px;
-    background-color: blueviolet;
+    background-color: beige;
 }
 
 .child{
-    height: 100px;
-    background-color: brown;
+    background-color: yellowgreen;
 }
