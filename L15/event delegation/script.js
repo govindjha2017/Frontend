@@ -9,5 +9,5 @@ const children= document.querySelectorAll('.child');
 const parent=document.querySelector('.container');
 
 parent.addEventListener('click',(e)=>{
-    console.log(e.target.innerText);
+    console.log(e.target.innerHTML);
 })
