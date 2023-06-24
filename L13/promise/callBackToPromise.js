@@ -1,3 +1,5 @@
+console.log("kya");
+
 function downloadFile(path){
     return new Promise((resolve,reject)=>{
         console.log('file start to download from path:',path);
@@ -12,7 +14,7 @@ function downloadFile(path){
         },3000);
     })
 }
- 
+ console.log("haal");
 function compressFile(file){
     return new Promise((resolve,reject)=>{
         console.log('file start to compress');
@@ -23,7 +25,7 @@ function compressFile(file){
         },2000);
     })
 }
-
+console.log("hai");
 function uploadFile(compressedFile){
     return new Promise((resolve,reject)=>{
         console.log(`file started to upload at http://facrbookCloud.com/${compressedFile}`);
@@ -32,7 +34,7 @@ function uploadFile(compressedFile){
         },3000);
     })
 }
-
+console.log("bhai");
 downloadFile('https://facebook.com/profile.jpg')
     .then(compressFile)
     .then(uploadFile)
@@ -43,7 +45,7 @@ downloadFile('https://facebook.com/profile.jpg')
         console.log(err);
     })
 
-
+console.log("sahab");
 
 
 // downloadFile('https://facebook.com/profile.jpg')

@@ -2,7 +2,6 @@ const url='https://dumyjson.com/products';
 
 const btn=document.querySelector('#btn');
 const list=document.querySelector('.list');
-
 function getdata(url){
     return new Promise((resolve,reject)=>{
         axios.get(url)
@@ -39,3 +38,5 @@ function clickHandler(){
             console.log(err);
         })
 }
+
+btn.addEventListener('click', clickHandler);
