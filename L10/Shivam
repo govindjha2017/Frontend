@@ -17,8 +17,8 @@ function outerFun(){
     }
     return innerFun;
 }
-
-let fun = outerFun();
+let outFun = outerFun();
+let fun = outFun();
 let fun1 = fun();
 let fun2 = fun();
 
